@@ -1,0 +1,54 @@
+body {
+    margin: 22px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.card {
+    width: 600px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 1px solid black;
+    background-color: aliceblue;
+    padding: 10px;
+    color: #2b2839;
+    position: relative; /* for absolute QR code */
+}
+
+.avatar {
+    width: 120;
+    height: 120;
+}
+
+.namepic {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    font-size: 20px;
+}
+
+.namejob {
+    text-align: left;
+}
+
+.icon{
+    width:10px;
+}
+
+.information {
+    font-size: 16px;
+    display:flex;
+    gap: 90px;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.qrcode {
+    width: 120px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
